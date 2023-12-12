@@ -15,6 +15,9 @@
             <li>
               <router-link class="font-medium md:text-base text-xs" to="/users">Users</router-link>
             </li>
+            <li>
+              <router-link class="font-medium md:text-base text-xs" to="/posts">Posts</router-link>
+            </li>
           </ul>
         </nav>
       </div>

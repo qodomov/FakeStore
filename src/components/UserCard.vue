@@ -7,7 +7,7 @@
     <h5 class="absolute bg-blue-500 right-0 text-xs p-2 rounded-bl text-white capitalize">
       {{ user.gender }}
     </h5>
-    <img class="w-full h-56 object-cover" src="../../imgs/photo_5393279614744386205_y.jpg" :alt="user.firstName" />
+    <img class="w-full h-56 object-cover" src="../../imgs/frontend.jpg" :alt="user.firstName" />
     <figcaption class="h-[150px] p-2 pt-5 flex flex-col gap-2">
       <div class="flex justify-between gap-2">
         <p class="w-[50%] overflow-hidden text-ellipsis whitespace-nowrap">

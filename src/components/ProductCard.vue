@@ -1,11 +1,11 @@
 <template>
   <!--Products Card -->
-  <figure class="product__card border self-start rounded-md relative font-roboto">
+  <figure class="product__card border self-start rounded-md relative font-roboto ">
     <h5 class="absolute bg-blue-500 right-0 text-xs p-2 rounded-bl text-white capitalize">
       {{ product.category }}
     </h5>
     <img
-      class="w-full h-60 object-cover rounded-t"
+      class="w-full h-52 object-cover rounded-t"
       :src="product.image"
       :alt="product.description"
     />

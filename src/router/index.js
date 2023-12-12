@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { Products, Users, ProductUpdate, UserUpdate } from '../views'
+import { Posts, Products, Users, ProductUpdate, UserUpdate, PostUpdate } from '../views'
 import Default from '../layouts/Default.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +28,18 @@ const router = createRouter({
       meta: { layout: Default },
       component: UserUpdate
     },
+    {
+      path: '/posts',
+      name: 'posts',
+      meta: { layout: Default },
+      component: Posts
+    },
+    {
+      path: '/post/:id',
+      name: 'postUpdate',
+      meta: { layout: Default },
+      component: PostUpdate
+    }
   ]
 })
 export default router
